@@ -7,10 +7,11 @@ with open('people_data.csv') as csvfile:
     isPerson = True
 
     for row in reader: 
+        phrase = (row[0][0]).upper() + row[0][1:]
         if isPerson:
-            json_string += f'{{ "name": "{row[0]}",'
+            json_string += f'{{ "name": "{phrase}",'
         else:
-            json_string += f'"description": "{row[0]}" }},'
+            json_string += f'"description": "{phrase}" }},'
         
         isPerson = not isPerson
     

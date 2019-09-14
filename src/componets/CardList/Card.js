@@ -40,11 +40,11 @@ class Card extends React.Component {
         return (
             <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
                 <div key="front" style={cardStyle} onClick={this.handleFlip}>
-                    {this.state.person.name}
+                    {this.state.person.description}
                 </div>
 
                 <div key="back" style={cardStyle} onClick={this.handleFlip}>
-                    {this.state.person.description}
+                    {this.state.person.name}
                 </div>
             </ReactCardFlip>
         )
