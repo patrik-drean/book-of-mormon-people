@@ -4,8 +4,17 @@ import ReactCardFlip from 'react-card-flip';
 const cardStyle = {
     width: '60vh',
     height: '25vh',
-    border: '2px white solid',
     verticalAlign: 'middle',
+}
+
+const nameCardStyle = {
+    ...cardStyle,
+    border: '2px blue solid',
+}
+
+const descriptionCardStyle = {
+    ...cardStyle,
+    border: '2px green solid',
 }
 
 const cardTextStyle = {
@@ -24,11 +33,11 @@ class Card extends React.Component {
                 flipSpeedBackToFront={this.props.flipSpeed} 
                 flipSpeedFrontToBack={this.props.flipSpeed}
             >
-                <div key="front" style={cardStyle} onClick={this.props.handleFlip}>
+                <div key={this.props.nameOrientation} style={nameCardStyle} onClick={this.props.handleFlip}>
                     <p style={cardTextStyle} >{this.props.person.description}</p>
                 </div>
 
-                <div key="back" style={cardStyle} onClick={this.props.handleFlip}>
+                <div key={this.props.descriptionOrientation} style={descriptionCardStyle} onClick={this.props.handleFlip}>
                     <p style={cardTextStyle} >{this.props.person.name}</p>
                 </div>
             </ReactCardFlip>

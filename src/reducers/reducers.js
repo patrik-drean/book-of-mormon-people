@@ -1,13 +1,14 @@
-import {CHANGE_CARD_PERSON} from '../actions/actions'
-import {CHANGE_CARD_SIDE} from '../actions/actions'
-
+import {CHANGE_CARD_PERSON,CHANGE_CARD_SIDE, TOGGLE_QUIZ_MODE} from '../actions/actions';
 const initialState = {
     person: {
         name: '',
         description: '',
     },
     isFlipped: false,
-    flipSpeed: .6
+    flipSpeed: .6,
+    isNameShownFirst: false,
+    nameOrientation: "front",
+    descriptionOrientation: "back",
 }
 
 function reducer(state = initialState, action) {
@@ -22,6 +23,13 @@ function reducer(state = initialState, action) {
                 ...state,
                 isFlipped: action.isFlipped,
                 flipSpeed: action.flipSpeed
+            }
+        case TOGGLE_QUIZ_MODE:
+            return {
+                ...state,
+                isNameShownFirst: action.isNameShownFirst,
+                nameOrientation: state.descriptionOrientation,
+                descriptionOrientation: state.nameOrientation
             }
         default:
             return state;
