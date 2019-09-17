@@ -1,5 +1,9 @@
 import React from 'react';
-import Card from '../CardList/Card'
+import {createStore, applyMiddleware} from 'redux';
+import createSagaMiddleware from 'redux-saga';
+import {Provider} from 'react-redux';
+import reducer from '../../reducers/reducers'
+import FlashCardsPage from '../FlashCardsPage/FlashCardsPage'
 
 const appStyle = {
     textAlign: 'center',
@@ -13,12 +17,16 @@ const appStyle = {
     color: 'white',
 }
 
+const store = createStore(reducer);
+
 function App() {
-  return (
-    <div className="App" style={appStyle}>
-        <Card></Card>
-    </div>
-  );
+    return (
+        <Provider store={store}>
+            <div className="App" style={appStyle}>
+                <FlashCardsPage></FlashCardsPage>
+            </div>
+        </Provider>
+    );
 }
 
 export default App;
