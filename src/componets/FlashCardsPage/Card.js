@@ -54,9 +54,3 @@ class Card extends React.Component {
 }
 
 export default Card;
-
-// Next Arrow
-// Switch on space bar and arrow key
-// Better transition
-// Switch to quiz or practice
-// Switch name & description

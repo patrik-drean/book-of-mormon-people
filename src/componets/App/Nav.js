@@ -1,5 +1,6 @@
 import React from "react";
-import { ButtonGroup, Button } from "@material-ui/core";
+import { Button } from "@material-ui/core";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 const buttonGroupStyle = {
   margin: "10px"
@@ -15,10 +16,22 @@ class Nav extends React.Component {
   render() {
     return (
       <div style={buttonGroupStyle}>
-        <Button variant="outlined" color="secondary" style={buttonStyle}>
+        <Button
+          component={Link}
+          to="/learn"
+          variant="outlined"
+          color="secondary"
+          style={buttonStyle}
+        >
           Learn
         </Button>
-        <Button variant="outlined" color="secondary" style={buttonStyle}>
+        <Button
+          component={Link}
+          to="/quiz"
+          variant="outlined"
+          color="secondary"
+          style={buttonStyle}
+        >
           Quiz
         </Button>
       </div>

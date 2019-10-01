@@ -1,9 +1,11 @@
 import React from "react";
 import { createStore, applyMiddleware } from "redux";
-import createSagaMiddleware from "redux-saga";
 import { Provider } from "react-redux";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 import reducer from "../../reducers/reducers";
 import FlashCardsPage from "../FlashCardsPage/FlashCardsPage";
+import LearnPage from "../LearnPage/LearnPage";
 import Nav from "./Nav";
 
 const appStyle = {
@@ -11,7 +13,6 @@ const appStyle = {
   minHeight: "100vh",
   display: "flex",
   flexDirection: "column",
-  justifyContent: "center",
   fontSize: "calc(10px + 2vmin)",
   color: "white"
 };
@@ -21,10 +22,16 @@ const store = createStore(reducer);
 function App() {
   return (
     <Provider store={store}>
-      <div className="App" style={appStyle}>
-        <Nav></Nav>
-        <FlashCardsPage></FlashCardsPage>
-      </div>
+      <Router>
+        <div className="App" style={appStyle}>
+          <Nav></Nav>
+          <Switch key={Math.random()}>
+            <Route path="/quiz" component={FlashCardsPage}></Route>
+            <Route path="/learn" component={LearnPage}></Route>
+            <Route path="*" component={FlashCardsPage}></Route>
+          </Switch>
+        </div>
+      </Router>
     </Provider>
   );
 }
