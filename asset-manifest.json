@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/book-of-mormon-people/static/css/main.34de6062.chunk.css",
-    "main.js": "/book-of-mormon-people/static/js/main.5916e804.chunk.js",
-    "main.js.map": "/book-of-mormon-people/static/js/main.5916e804.chunk.js.map",
+    "main.js": "/book-of-mormon-people/static/js/main.b87db6fb.chunk.js",
+    "main.js.map": "/book-of-mormon-people/static/js/main.b87db6fb.chunk.js.map",
     "runtime~main.js": "/book-of-mormon-people/static/js/runtime~main.b9a8dd43.js",
     "runtime~main.js.map": "/book-of-mormon-people/static/js/runtime~main.b9a8dd43.js.map",
     "static/js/2.a37e0fc9.chunk.js": "/book-of-mormon-people/static/js/2.a37e0fc9.chunk.js",
     "static/js/2.a37e0fc9.chunk.js.map": "/book-of-mormon-people/static/js/2.a37e0fc9.chunk.js.map",
     "index.html": "/book-of-mormon-people/index.html",
-    "precache-manifest.9c6f95dc00ba57b6ec80666a5364ceb8.js": "/book-of-mormon-people/precache-manifest.9c6f95dc00ba57b6ec80666a5364ceb8.js",
+    "precache-manifest.a00573e24bc678c9bbb58c4e2c4c28ae.js": "/book-of-mormon-people/precache-manifest.a00573e24bc678c9bbb58c4e2c4c28ae.js",
     "service-worker.js": "/book-of-mormon-people/service-worker.js",
     "static/css/main.34de6062.chunk.css.map": "/book-of-mormon-people/static/css/main.34de6062.chunk.css.map"
   }
