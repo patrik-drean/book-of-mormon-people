@@ -1,14 +1,10 @@
-import React from "react";
-import Nav from "../App/Nav";
+import React from 'react'
+import PeopleTable from './PeopleTable'
 
 class LearnPage extends React.Component {
   render() {
-    return (
-      <div>
-        <div>Hi</div>
-      </div>
-    );
+    return <PeopleTable />
   }
 }
 
-export default LearnPage;
+export default LearnPage
