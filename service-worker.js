@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/book-of-mormon-people/precache-manifest.5517a375ff52f711e065316fe1e778bc.js"
+  "/book-of-mormon-people/precache-manifest.06db52a87a719fe75b4fc346393fa73e.js"
 );
 
 self.addEventListener('message', (event) => {
