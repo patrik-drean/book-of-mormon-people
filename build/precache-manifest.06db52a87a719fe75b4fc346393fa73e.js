@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1b4c74126a1d43f2ba0d0e907a9bb494",
+    "revision": "fced923b0d3e14cc4d8c2d782690a6fa",
     "url": "/book-of-mormon-people/index.html"
   },
   {
-    "revision": "a8738c499665f604febb",
+    "revision": "07cf12b79d521fc21d7d",
     "url": "/book-of-mormon-people/static/css/main.34de6062.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/book-of-mormon-people/static/js/2.a37e0fc9.chunk.js"
   },
   {
-    "revision": "a8738c499665f604febb",
-    "url": "/book-of-mormon-people/static/js/main.5916e804.chunk.js"
+    "revision": "07cf12b79d521fc21d7d",
+    "url": "/book-of-mormon-people/static/js/main.c196fb94.chunk.js"
   },
   {
     "revision": "6450e0138e8a4d97c2c4",

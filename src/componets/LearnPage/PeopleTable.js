@@ -15,9 +15,6 @@ const useStyles = makeStyles(theme => ({
     overflowX: 'auto',
     backgroundColor: 'inherit'
   },
-  table: {
-    minWidth: 650
-  },
   tableCell: {
     color: 'white'
   },

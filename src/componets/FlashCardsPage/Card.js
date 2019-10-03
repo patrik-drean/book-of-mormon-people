@@ -1,28 +1,28 @@
-import React from "react";
-import ReactCardFlip from "react-card-flip";
+import React from 'react'
+import ReactCardFlip from 'react-card-flip'
 
 const cardStyle = {
-  width: "60vh",
-  height: "25vh",
-  verticalAlign: "middle",
-  padding: "5px"
-};
+  width: '50vw',
+  height: '25vh',
+  verticalAlign: 'middle',
+  padding: '5px'
+}
 
 const nameCardStyle = {
   ...cardStyle,
-  border: "2px blue solid"
-};
+  border: '2px blue solid'
+}
 
 const descriptionCardStyle = {
   ...cardStyle,
-  border: "2px green solid"
-};
+  border: '2px green solid'
+}
 
 const cardTextStyle = {
-  height: "25vh",
-  textAlign: "center",
-  verticalAlign: "middle"
-};
+  height: '25vh',
+  textAlign: 'center',
+  verticalAlign: 'middle'
+}
 
 class Card extends React.Component {
   render() {
@@ -49,8 +49,8 @@ class Card extends React.Component {
           <p style={cardTextStyle}>{this.props.person.name}</p>
         </div>
       </ReactCardFlip>
-    );
+    )
   }
 }
 
-export default Card;
+export default Card
