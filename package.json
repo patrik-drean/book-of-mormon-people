@@ -2,7 +2,7 @@
   "name": "bom-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://patrik-drean.github.io/book-of-mormon-people",
+  "homepage": "https://patrik-drean.github.io/book-of-mormon-people/",
   "dependencies": {
     "@material-ui/core": "^4.4.2",
     "@material-ui/icons": "^4.4.1",

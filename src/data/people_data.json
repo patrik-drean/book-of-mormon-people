@@ -1,11 +1,15 @@
 [
   {
     "name": "Aaron",
-    "description": "A son of King Mosiah and a missionary to the Lamanites"
+    "description": "The oldest son of King Mosiah and a missionary to the Lamanites"
   },
   {
     "name": "Abinadi",
-    "description": "A prophet sent to teach King Noah, who had Abinadi burned to death"
+    "description": "A prophet sent to teach King Noah and was burned to death for his testimony"
+  },
+  {
+    "name": "Abish",
+    "description": "A Lamanite woman who was converted by the spirit before Ammon visited her people"
   },
   {
     "name": "Adam",
@@ -54,6 +58,10 @@
   {
     "name": "Amulon",
     "description": "A wicked priest of King Noah who was made ruler over Alma’s people. He made them work very hard and threatened to kill anyone caught praying."
+  },
+  {
+    "name": "Antipus",
+    "description": "Nephite commander in the city of Judea. Fought to protect the Stripling Warriors."
   },
   {
     "name": "King Benjamin ",
@@ -117,19 +125,23 @@
   },
   {
     "name": "Joseph",
-    "description": "A righteous son of Lehi and Sariah who was born in the wilderness"
+    "description": "The yougnest son of Lehi and Sariah who was born in the wilderness"
   },
   {
     "name": "Joseph Smith Jr.",
-    "description": "A latter-day prophet who translated the Book of Mormon from the gold plates"
+    "description": "A latter-day prophet who actually translated the Book of Mormon from the gold plates"
   },
   {
     "name": "King-men",
     "description": "Nephites who wanted to be ruled by a king, not by judges. When they could not have a king, they joined the Lamanites and attacked the Nephites."
   },
   {
+    "name": "Kishkumen",
+    "description": "Leader of the Nephite robbers that did secret combinations. He assassinated the chief judge."
+  },
+  {
     "name": "Korihor",
-    "description": "A wicked man who wanted a sign to prove God lives. God gave Korihor a sign by taking away his voice."
+    "description": "A wicked man who wanted a sign to prove God lives. God gave him a sign by taking away his voice."
   },
   {
     "name": "Laban",
@@ -149,7 +161,7 @@
   },
   {
     "name": "King Lamoni",
-    "description": "A Lamanite king who was taught the gospel and believed. Ammon (2) protected the king’s flocks from robbers."
+    "description": "A Lamanite king who was taught the gospel and believed. Ammon (2) protected this king’s flocks from robbers."
   },
   {
     "name": "Father of King Lamoni",
