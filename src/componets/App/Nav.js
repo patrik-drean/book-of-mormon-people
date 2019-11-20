@@ -18,7 +18,7 @@ class Nav extends React.Component {
       <div style={buttonGroupStyle}>
         <Button
           component={Link}
-          to="/learn"
+          to="/book-of-mormon-people/learn"
           variant="outlined"
           color="secondary"
           style={buttonStyle}
@@ -27,7 +27,7 @@ class Nav extends React.Component {
         </Button>
         <Button
           component={Link}
-          to="/quiz"
+          to="/book-of-mormon-people/quiz"
           variant="outlined"
           color="secondary"
           style={buttonStyle}
